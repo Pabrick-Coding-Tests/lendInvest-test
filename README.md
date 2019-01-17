@@ -1,6 +1,4 @@
-## Available Scripts
-
-LendInvest Coding Test
+## LendInvest Coding Test
 Thank you for your interest in LendInvest. In this stage of the recruitment journey, you're
 going to code (the fun part!).
 We’d like to get an idea about how you like to code and if it fits with how we like to code.
