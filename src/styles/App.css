@@ -1,0 +1,41 @@
+@import url("https://necolas.github.io/normalize.css/8.0.0/normalize.css");
+@import url("https://fonts.googleapis.com/css?family=Slabo+27px");
+
+html {
+  box-sizing: content-box;
+}
+
+body {
+  padding: 20px;
+}
+
+article.loan {
+  cursor: pointer;
+  width: 90%;
+  margin: 0 auto 20px auto;
+  background-color: #DDDDDD;
+  padding: 10px;
+}
+
+article.loan p { margin: 0; }
+
+article.loan button {
+  float: right;
+  margin-top: -30px;
+  pointer-events: none;
+}
+
+form.popup {
+  cursor: pointer;
+  width: 90%;
+  margin: 0 auto 20px auto;
+  background-color: #DDDDDD;
+  padding: 10px;
+}
+
+form.popup label { display: block; }
+
+form.popup input {
+  display: block;
+  margin: 10px 0;
+}
