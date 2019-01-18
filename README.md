@@ -1,49 +1,68 @@
-## LendInvest Coding Test
-Thank you for your interest in LendInvest. In this stage of the recruitment journey, you're
-going to code (the fun part!).
-We’d like to get an idea about how you like to code and if it fits with how we like to code.
-Please don’t spend on this task more than 3 hours. We don't expect anyone to create fully
-working application in a such short time. Plan your work respectively. Show us how you
-approach planning.
-Exercise
-In LendInvest we think everyone should have the opportunity to invest in property, which is
-why we’re disrupting the status quo. This is lending and investing without the banks.
-Mortgages simplified. We connect people who want to invest their money, with investments to
-those who want to borrow.
-One of the important parts of our business is to give our investors a way to invest in a loan for
-them to earn a return (monthly interest payment).
-Exercise description
-A sample JSON file (current-loans.json) is provided to use as a stub data for imaginary end
-point.
-You should create a small single page HTML/JS application, which would have the following
-functionality:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-1) A sample JSON file (current-loans.json) is provided to use as a stub data.
-    1) Don’t worry about stubbing API response. Assume that this data is available within
-the app’s source code (hard coded).
+## Available Scripts
 
-2) You should create a small single page HTML/JS application. It should have the following
-functionality:
-    1) User is able to see all current loans (you can find the data in current-loans.json file)
-    2) The User is able to see the number representing the total amount of possible
-investments.
+In the project directory, you can run:
 
-3) After User clicks on a loan, the form should appear.
-    1) User can put numeric value (invested amount) in the input
-    2) User can click button labelled “Invest”
-    3) User can close popup
+### `npm start`
 
-4) If User decides to invest:
-    1) the form should be closed
-    2) the available amount, for the loan User invested into, should decrease
-    3) the total available number should also adjust accordingly.
-    4) The loan on which User have invested should have some visual indication that
-you have invested in it
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-How to pass the test
-- Submit working React.js code fully tested.
-- Don’t gold plate (i.e. eslint might be good, redux might be too much).
-- If you know TDD a red-green-refactoring process would be very appreciative.
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-- Once done create a git bundle leaving all the commit history (git bundle create lendinvest-
-test.bundle master).
+### `npm test`
+
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

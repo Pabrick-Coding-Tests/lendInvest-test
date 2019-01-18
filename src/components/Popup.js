@@ -9,26 +9,30 @@ class Popup extends React.Component {
 
     investLoan = (e) => {
         e.preventDefault();
-
-        const infoAuto = {
-            brand: this.refBrand.current.value,
-            year: this.refYear.current.value,
-            plan: this.refRadioBasic.current.checked ? this.refRadioBasic.current.value : this.refRadioComplete.current.value
-        };
-
-        this.props.data(infoAuto);
+        this.props.investLoan({
+            id: this.props.data.id,
+            amountInvested: this.refInputAmount.current.value
+        });
         e.currentTarget.reset();
+    };
+
+    onChangeValue = (e) => {
+        e.preventDefault();
     };
 
     render() {
         return (
             <form className="popup" onSubmit={this.investLoan}>
                 <div className="campo">
+                    <p>Title: {this.props.data.id}</p>
+                    <p>Available Amount: {this.props.data.available}</p>
+
                     <label>Invested amount (£)</label>
                     <input
                         type="text"
                         name="invest"
-                        value="0"
+                        placeholder="0"
+                        onChange={this.onChangeValue}
                         ref={this.refInputAmount} />
                 </div>
 

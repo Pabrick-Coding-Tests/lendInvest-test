@@ -25,10 +25,21 @@ article.loan button {
   pointer-events: none;
 }
 
+.overlay {
+  background-color: rgba(0,0,0,.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+}
+.overlay.open { display: block; }
+.overlay.close { display: none; }
+
 form.popup {
-  cursor: pointer;
   width: 90%;
-  margin: 0 auto 20px auto;
+  margin: 20px auto;
   background-color: #DDDDDD;
   padding: 10px;
 }
@@ -38,4 +49,10 @@ form.popup label { display: block; }
 form.popup input {
   display: block;
   margin: 10px 0;
+  padding: 4px;
+  text-align: right;
+}
+
+form.button {
+  cursor: pointer;
 }
